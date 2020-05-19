@@ -1,38 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 55px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color: #01579B;
+  border: none;
+  border-radius: 10px;
+  width: 35%;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 11vh;
+  background: rgb(73, 79, 82);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links li {
+  color: white;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.service-image {
+  height: 200px;
+  width: 200px;
+}
+
+.service-text {
+  max-width: 300px;
+}
+
+.footer-links {
+  list-style: none;
+  line-height: 40px;
+  text-align: left;
+}
+
+.footer-box h2{
+  color: white;
+}
+
+#first-footer {
+  margin-left: -40px;
+}
+
+#footer {
+  background-color: #F9A826;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 50px;
+}
+
+#section {
+  text-align: left;
+  background-image: url("toddler-smiling.jpg");
+  min-height: 85vh;
+  margin-top: 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#top-section-text {
+  padding-left: 35px;
+  color: white;
+}
+
+#segment {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+#sitter-img {
+  height: 35%;
+  width: 35%;
+  border-radius: 100px;
+  margin: 30px 0;
+}
+
+#paragraph {
+  height: 70%;
+  width: 30%;
+  line-height: 40px;
+  margin-left: 150px;
+  font-size: 20px;
 }
