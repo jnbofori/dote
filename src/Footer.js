@@ -1,4 +1,7 @@
 import React from "react";
+import fb from "./images/fb.png";
+import twitter from "./images/twitter.png";
+import instagram from "./images/instagram.png";
 
 function Footer() {
     return (
@@ -22,7 +25,11 @@ function Footer() {
             </div>
             <div className="footer-box">
                 <h2>Follow Us</h2>
-                <p>Images</p>
+                <div className="follow-links">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={fb}/></a>
+                    <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer"><img src={twitter}/></a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img src={instagram}/></a>
+                </div>
                 <p>Opening Days and hours:</p>
                 <p>Sunday through Saturday: 24 hours a day</p>
             </div>

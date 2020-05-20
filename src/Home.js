@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sitter from './woman-reading-book.jpg';
+import sitter from './images/woman-reading-book.jpg';
 import babe from './svgs/undraw_baby.svg';
 import tutor from './svgs/undraw_teaching.svg';
 import doggy from './svgs/undraw_good_doggy.svg'

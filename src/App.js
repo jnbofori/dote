@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Nav from "./Nav";
 import Home from "./Home";
+import About from "./About";
 import Footer from "./Footer";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
             <Nav/>
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route path="/about" component={About} />
                 <Route path="*" component={()=> "404 NOT FOUND"} />
             </Switch>
               <Footer/>

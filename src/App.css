@@ -26,6 +26,7 @@ nav {
   min-height: 11vh;
   background: rgb(73, 79, 82);
   color: white;
+  position: sticky;
 }
 
 .nav-links {
@@ -46,6 +47,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 
 .service-image {
@@ -57,6 +59,13 @@ nav {
   max-width: 300px;
 }
 
+.flex-item {
+  height: 50%;
+  width: 50%;
+  padding: 10px;
+  text-align: left;
+}
+
 .footer-links {
   list-style: none;
   line-height: 40px;
@@ -65,6 +74,12 @@ nav {
 
 .footer-box h2{
   color: white;
+}
+
+.follow-links img {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
 }
 
 #first-footer {
@@ -81,9 +96,9 @@ nav {
 
 #section {
   text-align: left;
-  background-image: url("toddler-smiling.jpg");
+  background-image: url("images/toddler-smiling.jpg");
   min-height: 85vh;
-  margin-top: 0px;
+  margin-top: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,4 +134,27 @@ nav {
   line-height: 40px;
   margin-left: 150px;
   font-size: 20px;
+}
+
+#about-base {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 35px;
+  margin-bottom: 70px;
+}
+
+#pet-sitter {
+  height: 35%;
+  width: 35%;
+  box-shadow: 5px 0px 14px 1px black;
+}
+
+#dog-sitter {
+  height: 35%;
+  width: 35%;
+  border-radius: 60%;
+  box-shadow: -5px 0px 14px 2px black;
 }
