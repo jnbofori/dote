@@ -29,7 +29,7 @@ function Home() {
                 <div id="top-section-text">
                     <h1>Welcome to Dote</h1>
                     <h2>We put the give in care-giving</h2>
-                    <Link to="/contact"><button>Book now >></button></Link>
+                    <Link to="/book"><button>Book now >></button></Link>
                 </div>
             </div>
             <div id="segment">

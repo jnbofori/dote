@@ -101,7 +101,7 @@ function Services() {
                 <p> Pet daycare involves the Sitter taking care of an your pet during the day either at
                     the Sitter's own home or the Pet Owner's home. This may involve feeding them, playing with them
                     or just being present to ensure nothing detrimental occurs.</p>
-                    <p><b>Time period - The service is measured per session. We will discuss how long
+                    <p><b>Time period - The service is measured per hour. We will discuss how long
                         you'd like the session to last and whether you will also need Dog Walking during each session.</b></p>
             </div>
 

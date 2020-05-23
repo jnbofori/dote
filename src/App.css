@@ -100,6 +100,36 @@ nav {
   margin: 7px 0;
 }
 
+.period {
+  display: none;
+}
+
+.period-active {
+  display: block;
+}
+
+.contact-send-btn {
+  background-color: #01579B;
+  border: none;
+  border-radius: 10px;
+  width: 35%;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+.book-btn {
+  background-color: #01579B;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  float: right;
+  margin-right: 32px;
+}
+
 textarea:only-of-type{
   height: 200px;
   resize: none;
@@ -186,16 +216,6 @@ textarea:only-of-type{
   box-shadow: -5px 0px 14px 2px black;
 }
 
-#contact-send-btn {
-  background-color: #01579B;
-  border: none;
-  border-radius: 10px;
-  width: 35%;
-  color: white;
-  padding: 15px 32px;
-  cursor: pointer;
-}
-
 /* Style the tab */
 .tab {
   float: left;
@@ -242,12 +262,27 @@ textarea:only-of-type{
   height: 90%;
   border-left: none;
   text-align: left;
-  line-height: 150%;
+  line-height: 165%;
 }
 
 #service-base {
   display: flex;
   justify-content: center;
-  align-items: first;
   padding: 20px 70px 70px 70px;
 }
+
+#booking {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: left;
+}
+
+#booking div {
+  flex: 40%;
+  padding: 0 20px;
+}
+
+

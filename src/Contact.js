@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 function Contact() {
     return (
@@ -56,7 +56,7 @@ class ContactForm extends React.Component {
                     <label htmlFor="msg">Message:</label><br/>
                     <textarea type="text" className="contact-input" name="message" value={this.state.message} onChange={this.handleChange}/><br/>
 
-                    <button type="button" id="contact-send-btn">Send message</button>
+                    <button type="button" className="contact-send-btn">Send message</button>
                 </form>
             </div>
         );
